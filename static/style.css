@@ -1,0 +1,335 @@
+body {
+    background-color: #f6f6f6;
+    margin: 0;
+}
+
+
+/* --------------------------------------------------------------------------------------------------  Links - Botones */
+
+a {
+    transition: color 0.3s ease;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #2E0DAD;
+}
+
+html body nav {
+    padding: 16px;
+    background-color: #c4c2c2;
+}
+
+html body nav ul {
+    list-style-type: none;
+    font-size: 16px;
+    text-align: right;
+}
+
+html body nav ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+html body nav ul li a {
+    padding: 0 15px;
+}
+
+.btn {
+    background-color: #bdefbd;
+    color: rgba(70, 70, 70, 0.986);
+    padding: 15px 30px;
+    box-shadow: -5px 7px 1px #c9edc9;
+    border: none;
+}
+
+.btn-grande {
+    background-color: #bdefbd;
+    color: rgba(70, 70, 70, 0.986);
+    padding: 30px 60px;
+    box-shadow: -5px 7px 0px #c9edc9;
+}
+/* ----------------------------------------------------------------------------------PAgina Principal--------------------------------------------- */
+
+
+
+header {
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+
+section {
+    display: flex;
+    display: inline-block;
+    margin-top: 150px;
+    text-align: center;
+    justify-content: center;
+}
+
+.titulo {
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    height: 100px;
+}
+
+.quienes-somos {
+    background-color: #cacaca;
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    padding: 0px 450px 0px 450px;
+    /* width: 900px; */
+}
+
+.puntualidad {
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+    width: 900px;
+}
+
+.contenedor-imagen {
+    padding: 50px;
+}
+
+.imagen-puntualidad {
+    width: 300px;
+}
+
+.calidad {
+    background-color: #cacaca;
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    padding: 0px 450px 0px 450px;
+}
+
+/* ---------------------------------------------------------------------------------- Galeria  --------------------------------------------- */
+
+.galeria {
+    display: flex;
+    display: inline-block;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-mosaico {
+    display: flex;
+    justify-content: center;
+}
+
+.mosaico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.foto {
+    padding: 50px;
+    height: 300px;
+    width: 300px;
+}
+
+.foto-mosaico {
+    height: 300px;
+    width: 300px;
+}
+/* ---------------------------------------------------------------------------------- INFORMACION DE CONTACTO  --------------------------------------------- */
+
+.informacion-de-contacto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.informacion {
+    background-color: #bdefbd;
+    box-shadow: -5px 7px 1px #c9edc9;
+    margin: 30px;
+    width: 200px;
+}
+
+
+
+
+.redes-foto {
+    margin-top: 100px;
+    height: 200px;
+    width: 230px;
+}
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------Parte central menu principal */
+
+.content {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.contenedor {
+    padding-top: 20px;
+}
+
+/* footer */
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.triangulo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 200px solid transparent;
+    border-right: 500px solid #c9edc9;
+    border-left: 50px solid transparent;
+}
+
+.imagen {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------- REGISTRO USUARIO*/
+
+.header-formualrio {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+.header-formulario p {
+    margin-right: 10px;
+}
+
+.logo-escrito {
+    width: 20px;
+    height: 20px;
+}
+
+.contenedor-formulario {
+    display: flex;  
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px;
+    margin: 0;
+    right: 0;
+    margin: 150px 400px;
+    padding: 10px;
+
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
+}
+
+/* ----------------------------------------------------------------------------------------Inicio Sesion */
+
+.imagen-pequeña {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    width: 80px;
+    height: 80px;
+}
+
+#btn-ingresar {
+    background-color: #bdefbd;
+    color: rgba(70, 70, 70, 0.986);
+    margin: 5px;
+    padding: 15px 30px;
+    box-shadow: -5px 7px 1px #c9edc9;
+    border: none;
+}
+
+#btn-registrarse {
+    background-color: #bdefbd;
+    margin: 5px;
+    color: rgba(70, 70, 70, 0.986);
+    padding: 15px 30px;
+    box-shadow: -5px 7px 1px #c9edc9;
+    border: none;
+}
+
+/* -------------------------------------------------------------------Cuenta */
+
+.contenedor-datos {
+    display: flex;  
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+
+
+/* -------------------------------------------------------------------------------------Domicilios actuales*------------------------------------- */
+
+.header {
+    text-align: center;
+}
+
+.domicilios {
+    margin: 50px;
+    border: solid 1px;
+}
+
+.domicilios {
+    padding: 20px 300px;
+}
+
+/* -------------------------------------------------------------------------------Error-------------------------------- */
+
+
+.logo-escrito-grande {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.contenedor-logo {
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
+
+
